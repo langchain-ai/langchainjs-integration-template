@@ -1,6 +1,5 @@
 {
   "name": "langchainjs-integration-template",
-  "packageManager": "yarn@3.5.1",
   "workspaces": [
     "langchain_integration"
   ],
@@ -8,7 +7,7 @@
     "build": "yarn workspace langchain-integration build",
     "lint": "yarn workspace langchain-integration lint",
     "test": "yarn workspace langchain-integration test",
-    "test:integration": "yarn workspace langchain-integration test:int",
+    "test:int": "yarn workspace langchain-integration test:int",
     "format": "yarn workspace langchain-integration format"
   },
   "devDependencies": {
