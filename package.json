@@ -1,5 +1,6 @@
 {
   "name": "langchainjs-integration-template",
+  "private": true,
   "workspaces": [
     "langchain_integration"
   ],
